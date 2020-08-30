@@ -1,0 +1,8 @@
+mvn_clean:
+  script: ./AutomationChallenge.bat
+ 
+mvn_Package:
+    script: "mvn package"
+    
+run_JAR:
+    script: ./Run_Jar.bat
