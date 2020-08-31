@@ -22,7 +22,7 @@ public class GPTest {
 		//options.addArguments("user-data-dir=Libs/User Data");/*provide the User profile directory	(To start the session with Gmail account saved to the browser)*/
 		//options.addArguments("no-sandbox");
 		
-	//	System.setProperty("webdriver.chrome.driver", "Libs/chromedriver.exe");//setting "Chrome Driver" path
+		System.setProperty("webdriver.chrome.driver", "Libs/chromedriver.exe");//setting "Chrome Driver" path
 		
 		driver = new ChromeDriver();//Starting an instance from Chrome driver
 
