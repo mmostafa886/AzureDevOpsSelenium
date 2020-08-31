@@ -1,5 +1,6 @@
 package challenge;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -21,7 +22,7 @@ public class GPTest {
 		//options.addArguments("user-data-dir=Libs/User Data");/*provide the User profile directory	(To start the session with Gmail account saved to the browser)*/
 		//options.addArguments("no-sandbox");
 		
-		System.setProperty("webdriver.chrome.driver", "Libs/chromedriver.exe");//setting "Chrome Driver" path
+	//	System.setProperty("webdriver.chrome.driver", "Libs/chromedriver.exe");//setting "Chrome Driver" path
 		
 		driver = new ChromeDriver();//Starting an instance from Chrome driver
 
@@ -45,6 +46,7 @@ public class GPTest {
 	@Test(priority = 2  )
 	public void InstallFromWishList() throws Exception {//Installing one of the games in the wishlist
 		System.out.println("Test2:Install a Game from The WishList");
+		Assert.assertTrue(false);
 
 	}
 //---------------------------------------------------
