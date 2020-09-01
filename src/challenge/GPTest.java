@@ -46,7 +46,7 @@ public class GPTest {
 	@Test(priority = 2  )
 	public void InstallFromWishList() throws Exception {//Installing one of the games in the wishlist
 		System.out.println("Test2:Install a Game from The WishList");
-		Assert.assertTrue(false);
+		Assert.assertTrue(false==true);
 
 	}
 //---------------------------------------------------
